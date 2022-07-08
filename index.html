@@ -5,8 +5,12 @@
     <title>FizzBuzz.js</title>
     <script defer src="script.js"></script>
 </head>
-<body onload="startClock()">
+<body onload="startClock();startRealClock()">
     <div class="content">
+        <div class="realclock">
+            <h1 class="realclock">Real Time:</h1>
+            <h1 class="realtime" id="realtimeoutput">**:**</h1>
+        </div>
         <h1 id="timeoutput" class="center">**:**</h1>
         <p>
             This is the clasic game of FizzBuzz but with time! <br>

@@ -30,3 +30,14 @@ function startClock() {
   document.getElementById("timeoutput").innerHTML = time;
   setTimeout(startClock,1000);
 }
+
+function startRealClock() {
+  const d = new Date();
+  let h = addZero(d.getHours());
+  let m = addZero(d.getMinutes());
+  let s = addZero(d.getSeconds());
+
+  let time = h + ":" + m + "." + s;
+  document.getElementById("realtimeoutput").innerHTML = time;
+  setTimeout(startRealClock,1000);
+}

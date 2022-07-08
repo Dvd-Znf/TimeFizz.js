@@ -32,3 +32,19 @@ h1.center {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+h1.realclock {
+    margin: 0px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+
+h1.realtime {
+    margin: 0px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
